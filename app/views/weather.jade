@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Weather
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    .content
+      #weather
+        div
+          h1 #{temp}&deg; F
+        div
+          div(style="height:#{height}px;background-color:#{color};top:#{top}px;")
+        a(href='/',style='display:block;') Home
